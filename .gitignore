@@ -4,15 +4,16 @@
 /dist
 /tmp
 /out-tsc
-/bazel-out
 
-# Node
+# dependencies
+.node_modules
 /node_modules
-npm-debug.log
-yarn-error.log
+./node_modules
+node_modules
+/src/node_modules
 
 # IDEs and editors
-.idea/
+/.idea
 .project
 .classpath
 .c9/
@@ -20,23 +21,28 @@ yarn-error.log
 .settings/
 *.sublime-workspace
 
-# Visual Studio Code
+# IDE - VSCode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-.history/*
 
-# Miscellaneous
+# misc
 /.angular/cache
-.sass-cache/
+/.sass-cache
 /connect.lock
 /coverage
 /libpeerconnection.log
+npm-debug.log
+yarn-error.log
 testem.log
 /typings
+tsconfig.json
 
-# System files
+# System Files
 .DS_Store
 Thumbs.db
+src/node_modules/.cache/*
+tsconfig.json
+package-lock.json
