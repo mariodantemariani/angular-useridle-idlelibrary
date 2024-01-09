@@ -23,7 +23,6 @@ This project implements an idle user detector in Angular, which also supports mu
    ```
 2. Install the dependencies:
    ```
-   cd angular-useridle-idlelibrary
    npm install
    ```
 3. Run the project:
@@ -33,7 +32,7 @@ This project implements an idle user detector in Angular, which also supports mu
 
 ## Usage
 
-Follow the steps indicates on the next medium's article: XXXXXX
+Follow the steps indicates on the next medium's article: [medium](https://mariodante.medium.com/implementing-an-idle-user-detector-in-angular-with-multi-tab-support-c84c4a4d42b7)
 
 ## Contributing
 
