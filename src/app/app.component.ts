@@ -10,7 +10,7 @@ import { RouterOutlet } from '@angular/router';
 
 import { IdleExpiry, SimpleExpiry } from '@ng-idle/core';
 import { Keepalive, NgIdleKeepaliveModule } from '@ng-idle/keepalive';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
